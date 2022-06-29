@@ -26,6 +26,9 @@
 
 ## 💻 Prerequisites
 
+Before start, check if you attend the following requisites:
+* npm
+* git
 
 
 
@@ -40,7 +43,7 @@ In your terminal:
 git clone git@github.com:nogueiragabriela/ignite-lab-react.git
 ```
 ```
-# Acess Proejct folder
+# Access Project folder
 cd ignite-lab-react
 ```
 ```
