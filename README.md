@@ -5,10 +5,11 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/nogueiragabriela/ignite-lab-react?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-07405E?style=for-the-badge&logo=tailwind&logoColor=white)
-![Graphql](https://img.shields.io/badge/Graphql-07405E?style=for-the-badge&logo=graphql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bdf8?style=for-the-badge&logo=tailwind&logoColor=white)
+![Graphql](https://img.shields.io/badge/Graphql-e10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Apollo Client](https://img.shields.io/badge/Apollo_Client-311c87?style=for-the-badge&logo=tailwind&logoColor=white)
 
 
 <img src="https://i.imgur.com/Llw6olz.png" alt="Subscription page - Ignite Lab - React">
