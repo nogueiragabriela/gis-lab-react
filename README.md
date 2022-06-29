@@ -27,11 +27,29 @@
 
 
 
+
 ## 🚀 Installing Ignite Lab - React
 
 To install **Ignite Lab - React**, follow the next steps:
 
+In your terminal:
 
+```
+# Clone this repository
+git clone git@github.com:nogueiragabriela/ignite-lab-react.git
+```
+```
+# Acess Proejct folder
+cd ignite-lab-react
+```
+```
+# Install de dependencies
+npm install
+```
+```
+# Run the project
+npm run dev
+```
 
 ## Feedbacks
 
