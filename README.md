@@ -30,8 +30,6 @@ Before start, check if you attend the following requisites:
 * npm
 * git
 
-
-
 ## 🚀 Installing Ignite Lab - React
 
 To install **Ignite Lab - React**, follow the next steps:
@@ -54,6 +52,9 @@ npm install
 # Run the project
 npm run dev
 ```
+### Environment variables
+* VITE_API_URL=
+* VITE_API_ACCESS_TOKEN=
 
 ## Feedbacks
 
