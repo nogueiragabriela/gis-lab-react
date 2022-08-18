@@ -1,4 +1,4 @@
-# **Ignite Lab - React**
+# **GIS Lab - React**
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nogueiragabriela/ignite-lab-react?style=for-the-badge)
@@ -15,10 +15,7 @@
 
 ### You can view the project by Rocketseat in [Figma](https://www.figma.com/community/file/1120711251998877938)
 
-## About Ignite Lab - React
-
-**Ignite Lab - React** is an application with the objective of creating a platform that allows the availability of classes, together with a home page for student registration. It was developed during the immersion week in react, Ignite Lab 02, promoted by rockketseat.
-
+## About GIS Lab - React
 
 
 ## 💻 Prerequisites
