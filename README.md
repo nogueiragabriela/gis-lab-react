@@ -12,9 +12,6 @@
 ![Apollo Client](https://img.shields.io/badge/Apollo_Client-311c87?style=for-the-badge&logo=tailwind&logoColor=white)
 
 
-<img src="https://i.imgur.com/Llw6olz.png" alt="Subscription page - Ignite Lab - React">
-
-<img src="https://i.imgur.com/4jM1fyl.png" alt="Lessons - Ignite Lab - React">
 
 ### You can view the project by Rocketseat in [Figma](https://www.figma.com/community/file/1120711251998877938)
 
