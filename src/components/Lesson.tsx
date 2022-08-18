@@ -23,19 +23,19 @@ export function Lesson(props: LessonProps) {
 
     return (
         <Link to={`/event/lesson/${props.slug}`} className="group">
-            <span className="text-gray-300">
+            <span className="text-gray-900 dark:text-gray-300">
                 {availableDateFormatted}
             </span>
 
-            <div className={classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500', { 
-                'bg-green-500': isActiveLesson,
+            <div className={classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-blue-500', { 
+                'bg-blue-500': isActiveLesson,
             })}
             >
                 <header className="flex items-center justify-between">
                     {isLessonAvailable ? (
-                        <span className={classNames('text-sm text-blue-500 font-medium flex items-center gap-2', {
+                        <span className={classNames('text-sm text-blue-800 font-medium flex items-center gap-2', {
                             'text-white': isActiveLesson,
-                            'text-blue-500': !isActiveLesson,
+                            'text-blue-700': !isActiveLesson,
                         })}>
                         <CheckCircle size={20} />
                         Conteúdo liberado
@@ -48,9 +48,9 @@ export function Lesson(props: LessonProps) {
                     )}
                     
                     
-                    <span className={classNames('text-xs rounded py-[0.125rem] px-2 text-white border border-green-300 font-bold', {
+                    <span className={classNames('text-xs rounded py-[0.125rem] px-2 text-black border border-blue-700 font-bold dark:text-white', {
                         'border-white': isActiveLesson,
-                        'border-green-300': !isActiveLesson,
+                        'border-blue-500': !isActiveLesson,
 
                     })}>
                         {props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
@@ -58,8 +58,8 @@ export function Lesson(props: LessonProps) {
                 </header>
 
                 <strong className={classNames(' mt-5 block', {
-                    'text-white': isActiveLesson,
-                    'text-gray-200': !isActiveLesson,
+                    'text-black dark:text-white': isActiveLesson,
+                    'text-gray-600 dark:text-gray-200': !isActiveLesson,
                 })}>                    
                     {props.title}
                 </strong>

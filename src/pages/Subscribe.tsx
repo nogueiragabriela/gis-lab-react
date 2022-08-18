@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
+import Switch from "../components/Switch";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 
@@ -27,29 +28,30 @@ export function Subscribe () {
 
     return (
         <div className="min-h-screen bg-blur bg-cover bgt-no-repeat flex flex-col items-center">
+            <Switch />
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
                 <div className="max-w-[640px]">
                     <Logo />
 
                     <h1 className="mt-8 text-[2.5rem] leading-tight">
-                        Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="text-blue-500">React </strong>
+                        Aprenda as habilidades essenciais para a área de <strong className="text-blue-500">geoprocessamento</strong>, do zero, utilizando o software <strong className="text-blue-500">QGIS </strong>
                     </h1>
                     <p className="mt-4 text-gray-200 leading-relaxed">
-                        Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta demanda para acessar as melhores oportunidades do mercado
+                    Em apenas uma semana você vai dominar na prática as tecnologias básicas para elaborar mapas e realizar análises 
                     </p>
                 </div>
-                <div className="p-8 bg-gray-700 border border-gray-500 rounded">
-                    <strong className="text-2xl mb-6 block">Increva-se gratuitamente</strong>
+                <div className="p-8 text-black bg-white border border-gray-500 rounded dark:bg-gray-700 dark:text-white">
+                    <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
 
                     <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
                         <input 
-                            className="bg-gray-900 rounded px-5 h-14"
+                            className="bg-gray-200 rounded px-5 h-14 text-gray-800 dark:bg-gray-900 dark:text-white"
                             type="text"
                             placeholder="Seu nome completo"
                             onChange={event => setName(event.target.value)}
                         />
                         <input 
-                            className="bg-gray-900 rounded px-5 h-14"
+                            className="bg-gray-200 rounded px-5 h-14 text-gray-800 dark:bg-gray-900 dark:text-white"
                             type="email"
                             placeholder="Digite seu e-mail"
                             onChange={ event => setEmail(event.target.value)}
@@ -58,16 +60,15 @@ export function Subscribe () {
                         <button 
                         type="submit"
                         disabled={loading}
-                        className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
-                        >
-                            Garantir minha vaga
+                        className="mt-4 bg-blue-600 uppercase py-4 rounded font-bold text-sm hover:bg-blue-900 transition-colors disabled:opacity-50">
+                            Quero aprender!
                         </button>
 
                     </form>
 
                 </div>
             </div>
-            <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+            <img src="/src/assets/code" className="mt-10" alt="" />
         </div>
     )
 }

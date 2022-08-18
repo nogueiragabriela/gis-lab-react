@@ -14,11 +14,13 @@
     "@vime/react": "^5.3.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
+    "graceful-fs": "^4.2.10",
     "graphql": "^16.5.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "react-toggle-dark-mode": "^1.1.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.6.2",
@@ -33,5 +35,17 @@
     "tailwindcss": "^3.1.4",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
-  }
+  },
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/nogueiragabriela/ignite-lab-react?style=for-the-badge)\r ![GitHub language count](https://img.shields.io/github/languages/count/nogueiragabriela/ignite-lab-react?style=for-the-badge)\r ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\r ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)\r ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bdf8?style=for-the-badge&logo=tailwind&logoColor=white)\r ![Graphql](https://img.shields.io/badge/Graphql-e10098?style=for-the-badge&logo=graphql&logoColor=white)\r ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)\r ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)\r ![Apollo Client](https://img.shields.io/badge/Apollo_Client-311c87?style=for-the-badge&logo=tailwind&logoColor=white)",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogueiragabriela/ignite-lab-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nogueiragabriela/ignite-lab-react/issues"
+  },
+  "homepage": "https://github.com/nogueiragabriela/ignite-lab-react#readme"
 }
