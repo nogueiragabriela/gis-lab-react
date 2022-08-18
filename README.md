@@ -24,9 +24,9 @@ Before start, check if you attend the following requisites:
 * npm
 * git
 
-## 🚀 Installing Ignite Lab - React
+## 🚀 Installing GIS Lab - React
 
-To install **Ignite Lab - React**, follow the next steps:
+To install **GIS Lab - React**, follow the next steps:
 
 In your terminal:
 
