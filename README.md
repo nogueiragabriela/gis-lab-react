@@ -11,6 +11,10 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Apollo Client](https://img.shields.io/badge/Apollo_Client-311c87?style=for-the-badge&logo=tailwind&logoColor=white)
 
+<img src="https://imgur.com/uwQTj3C.gif" alt="Subscription page">
+
+<img src="https://imgur.com/u1c8AGQ.gif" alt="Lessons page">
+
 
 
 ### You can view the project by Rocketseat in [Figma](https://www.figma.com/community/file/1120711251998877938)
