@@ -1,8 +1,8 @@
 # **GIS Lab - React**
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/nogueiragabriela/ignite-lab-react?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/nogueiragabriela/ignite-lab-react?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/nogueiragabriela/gis-lab-react?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/nogueiragabriela/gis-lab-react?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bdf8?style=for-the-badge&logo=tailwind&logoColor=white)
@@ -36,11 +36,11 @@ In your terminal:
 
 ```
 # Clone this repository
-git clone git@github.com:nogueiragabriela/ignite-lab-react.git
+git clone git@github.com:nogueiragabriela/gis-lab-react.git
 ```
 ```
 # Access Project folder
-cd ignite-lab-react
+cd gis-lab-react
 ```
 ```
 # Install de dependencies
@@ -57,6 +57,6 @@ npm run dev
 ## Feedbacks
 
 [![Linkedin: Gabriela Nogueira](https://img.shields.io/badge/-GabrielaNogueira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN)](https://www.linkedin.com/in/gabriela-nogueira-190026180/)
-[![Gmail Badge](https://img.shields.io/badge/-nogueiragabriela93@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:santiagorafael409@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-nogueiragabriela93@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:nogueiragabriela93@gmail.com)
 [![Gbariela Nogueira]( https://img.shields.io/github/followers/nogueiragabriela?label=follow&style=social)](https://github.com/nogueiragabriela)
 
